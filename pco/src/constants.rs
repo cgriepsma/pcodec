@@ -50,7 +50,7 @@ pub const QUANT_REQUIRED_BITS_SAVED_PER_NUM: f64 = 1.5;
 pub const CLASSIC_MEMORIZABLE_BINS_LOG: Bitlen = 8;
 
 // defaults
-pub const DEFAULT_COMPRESSION_LEVEL: usize = 8;
+pub const DEFAULT_COMPRESSION_LEVEL: usize = MAX_COMPRESSION_LEVEL;
 // if you modify default page size, update docs for PagingSpec
 pub const DEFAULT_MAX_PAGE_N: usize = 1 << 18;
 
